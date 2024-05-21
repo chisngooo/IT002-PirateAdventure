@@ -22,7 +22,7 @@
   </p>
 </div>
 
-## Table of Contents
+## TABLE OF CONTENTS
 
 <!-- [Ý tưởng](#ý-tưởng) -->
 - [LANGUAGES USAGE](#LANGUAGE-USAGE)
