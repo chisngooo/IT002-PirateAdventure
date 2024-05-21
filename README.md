@@ -58,6 +58,7 @@ viết đại cái gì vô đây nè
 
 - Python
 - Pygame
+  
   ```shell
    pip install pygame-ce
 
