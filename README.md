@@ -64,6 +64,9 @@ viết đại cái gì vô đây nè
 
 ## INSTRUCTION MANUAL
 just download and run the main.py file
+
+
+
 [contributors-shield]: https://img.shields.io/github/contributors/lamisgosu11/se104-final-website.svg?style=for-the-badge
 [contributors-url]: https://github.com/lamisgosu11/se104-final-website/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/lamisgosu11/se104-final-website.svg?style=for-the-badge
