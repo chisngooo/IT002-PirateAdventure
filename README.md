@@ -48,7 +48,7 @@ viết đại cái gì vô đây nè
 <!-- - [![Flutter][flutter]][flutter-url]
 - [![Firebase][firebase]][firebase-url] -->
 
-![PYTHON][PYTHON]
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
 
 <!-- GETTING STARTED -->
