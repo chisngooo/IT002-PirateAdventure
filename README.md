@@ -62,6 +62,9 @@ viết đại cái gì vô đây nè
   ```shell
    pip install pygame-ce
 
+  ```shell
+   pip install pytmx
+
 ## INSTRUCTION MANUAL
 just download and run the main.py file
 
