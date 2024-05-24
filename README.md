@@ -59,10 +59,10 @@ viết đại cái gì vô đây nè
 - Python
 - Pygame
   
-  ```shell
+   ```shell
    pip install pygame-ce
  - PyTMX
-  ```shell
+   ```shell
    pip install pytmx
 
 ## INSTRUCTION MANUAL
