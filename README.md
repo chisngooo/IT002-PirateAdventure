@@ -70,7 +70,7 @@ just download and run the main.py file
 
 
 
-[contributors-shield]: https://img.shields.io/github/contributors/chisngooo/IT002-PirateAdventure
+[contributors-shield]: https://img.shields.io/github/contributors/chisngooo/IT002-PirateAdventure.svg?style=for-the-badge
 [contributors-url]: https://github.com/chisngooo/IT002-PirateAdventure/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/chisngooo/IT002-PirateAdventure.svg?style=for-the-badge
 [forks-url]: https://github.com/chisngooo/IT002-PirateAdventure/network/members
