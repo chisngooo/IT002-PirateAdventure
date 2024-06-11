@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="40" height="15" tilewidth="64" tileheight="64" infinite="0" nextlayerid="28" nextobjectid="216">
+ <tileset firstgid="1" source="../data/tilesets/outside.tsx"/>
+ <tileset firstgid="49" source="../data/tilesets/items.tsx"/>
+ <tileset firstgid="54" source="../data/tilesets/inside.tsx"/>
+ <tileset firstgid="150" source="../data/tilesets/extra.tsx"/>
+ <tileset firstgid="216" source="../data/tilesets/objects.tsx"/>
+ <tileset firstgid="244" source="../data/tilesets/platforms.tsx"/>
+ <tileset firstgid="252" source="../data/tilesets/enemies.tsx"/>
+ <tileset firstgid="252" source="../data/tilesets/grass.tsx"/>
+ <tileset firstgid="257" name="0" tilewidth="104" tileheight="140" tilecount="1" columns="1">
+  <image source="../graphics/player/player2/idle/0.png" width="104" height="140"/>
+ </tileset>
+ <layer id="23" name="BG" width="40" height="15">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="24" name="BG details"/>
+ <layer id="15" name="Terrain" width="40" height="15">
+  <data encoding="csv">
+1,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+13,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+25,24,2,2,2,3,0,0,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,25,26,26,26,24,2,3,0,0,0,0,0,0,0,0,0,1,42,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,3,
+0,0,0,0,0,25,14,15,0,0,0,0,0,0,0,0,1,23,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13,14,15,
+0,0,0,0,0,0,25,24,3,0,0,0,0,0,0,1,23,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,2,18,14,15,
+0,0,0,0,0,0,0,25,43,39,0,0,0,0,37,44,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,2,18,14,14,14,14,15,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,2,18,14,14,14,14,14,14,14,15,
+0,0,0,0,0,0,0,0,0,0,0,37,38,38,39,0,0,0,0,0,0,0,0,0,0,1,2,2,18,14,14,14,14,14,14,14,14,14,14,15,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,2,18,14,14,14,14,14,14,14,14,14,14,14,14,14,15,
+1,2,31,39,0,0,0,37,38,39,0,0,0,0,0,37,38,38,39,0,1,2,18,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,15,
+13,5,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,15,
+13,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,15,
+13,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,15,
+25,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,26,27
+</data>
+ </layer>
+ <layer id="18" name="Grass" width="40" height="15">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,252,252,253,253,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,253,253,0,0,0,0,0,0,0,0,0,253,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,253,253,254,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,253,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,252,0,0,0,0,0,0,253,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,252,253,254,0,0,0,
+0,0,0,0,0,0,0,0,0,252,0,0,0,0,253,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,252,253,253,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,252,253,254,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,253,253,253,253,0,0,0,0,0,0,0,0,0,0,252,253,254,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,252,253,253,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+252,253,254,253,0,0,0,253,253,253,0,0,0,0,0,253,253,253,253,0,253,253,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="17" name="Objects">
+  <object id="100" name="crate" gid="230" x="127.667" y="642" width="42" height="32"/>
+  <object id="104" name="flag" gid="219" x="2483" y="193" width="68" height="186"/>
+  <object id="117" name="palm_bg_right" gid="229" x="217.333" y="669" width="104" height="106"/>
+  <object id="124" name="barrel" gid="216" x="1367.67" y="642" width="46" height="50"/>
+  <object id="181" name="palm_bg_right" gid="229" x="1194.83" y="678.5" width="104" height="106"/>
+  <object id="183" name="palm_bg_left" gid="228" x="366" y="677.667" width="104" height="106"/>
+  <object id="184" name="crate" gid="218" x="575" y="642.333" width="50" height="36"/>
+  <object id="185" name="palm_small" gid="222" x="148.667" y="642" width="80" height="103"/>
+  <object id="186" name="palm_large" gid="220" x="190.333" y="647.333" width="78" height="136"/>
+  <object id="187" name="palm_small" gid="222" x="1682" y="514" width="80" height="103"/>
+  <object id="188" name="palm_small" gid="222" x="2053" y="389" width="80" height="103"/>
+  <object id="189" name="palm_small" gid="222" x="2303" y="322" width="80" height="103"/>
+  <object id="190" name="palm_large" gid="220" x="1665" y="516" width="78" height="136"/>
+  <object id="191" name="palm_large" gid="220" x="2033" y="392" width="78" height="136"/>
+  <object id="192" name="palm_large" gid="220" x="2016" y="431" width="78" height="136"/>
+  <object id="193" name="palm_large" gid="220" x="2272" y="328" width="78" height="136"/>
+  <object id="201" name="player" gid="257" x="9" y="662.333" width="104" height="140"/>
+ </objectgroup>
+ <objectgroup id="25" name="Moving Objects"/>
+ <objectgroup id="22" name="Enemies">
+  <object id="137" name="shell" gid="224" x="125" y="129.667" width="76" height="46">
+   <properties>
+    <property name="reverse" type="bool" value="false"/>
+   </properties>
+  </object>
+  <object id="138" gid="225" x="388" y="194" width="48" height="46"/>
+  <object id="139" name="tooth" gid="225" x="1100" y="641" width="48" height="46"/>
+  <object id="140" name="tooth" gid="225" x="845.333" y="515.333" width="48" height="46"/>
+  <object id="141" name="shell" gid="224" x="1526" y="582" width="76" height="46">
+   <properties>
+    <property name="reverse" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="142" name="tooth" gid="225" x="1735.67" y="513.5" width="48" height="46"/>
+  <object id="143" name="tooth" gid="225" x="2309" y="322" width="48" height="46"/>
+  <object id="145" name="shell" gid="224" x="2106" y="389" width="76" height="46">
+   <properties>
+    <property name="reverse" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="180" name="tooth" gid="225" x="1924" y="451" width="48" height="46"/>
+ </objectgroup>
+ <objectgroup id="27" name="Data">
+  <object id="199" name="data" x="0" y="0" width="64" height="64">
+   <properties>
+    <property name="bg" value=""/>
+    <property name="bottom_limit" type="int" value="200"/>
+    <property name="death_border_bottom" type="int" value="0"/>
+    <property name="horizon_line" type="int" value="660"/>
+    <property name="top_limit" type="int" value="50"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="16" name="Water">
+  <object id="81" name="water" x="0.9697" y="689.667" width="2559.7" height="738.228"/>
+ </objectgroup>
+ <objectgroup id="21" name="Items">
+  <object id="157" name="diamond" gid="49" x="225" y="122" width="64" height="64"/>
+  <object id="158" name="diamond" gid="49" x="2222" y="320" width="64" height="64"/>
+  <object id="159" name="silver" gid="52" x="427.333" y="193.333" width="64" height="64"/>
+  <object id="160" name="silver" gid="52" x="510" y="321" width="64" height="64"/>
+  <object id="161" name="silver" gid="52" x="574.333" y="386" width="64" height="64"/>
+  <object id="162" name="silver" gid="52" x="899.5" y="385" width="64" height="64"/>
+  <object id="163" name="silver" gid="52" x="961" y="324" width="64" height="64"/>
+  <object id="164" name="silver" gid="52" x="1027" y="258" width="64" height="64"/>
+  <object id="165" name="silver" gid="52" x="1089" y="197.5" width="64" height="64"/>
+  <object id="166" name="silver" gid="52" x="451" y="648" width="64" height="64"/>
+  <object id="167" name="silver" gid="52" x="753" y="515" width="64" height="64"/>
+  <object id="168" name="silver" gid="52" x="1028" y="638.5" width="64" height="64"/>
+  <object id="173" name="silver" gid="52" x="707" y="516" width="64" height="64"/>
+  <object id="174" name="silver" gid="52" x="966.5" y="640.5" width="64" height="64"/>
+  <object id="179" name="skull" gid="53" x="2381" y="186" width="64" height="64"/>
+  <object id="211" name="silver" gid="52" x="515" y="644" width="64" height="64"/>
+  <object id="212" name="silver" gid="52" x="1600" y="514" width="64" height="64"/>
+  <object id="213" name="silver" gid="52" x="1672.67" y="512.667" width="64" height="64"/>
+  <object id="214" name="silver" gid="52" x="1798" y="448.667" width="64" height="64"/>
+  <object id="215" name="silver" gid="52" x="1858" y="449.333" width="64" height="64"/>
+ </objectgroup>
+</map>
